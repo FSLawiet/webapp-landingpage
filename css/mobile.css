@@ -1,0 +1,122 @@
+/*
+Estilização responsiva da navbar
+(Beba água, levante, alongue-se, vá dar uma volta, não se force camarada ;D )
+*/
+#navbar {
+  height: 260px;
+}
+
+#navbar-container {
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+#navbar-items {
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+
+#navbar-items li:nth-child(2) {
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
+#navbar-items li:nth-child(4) {
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+/*
+Estilização responsiva do showcase
+(Beba água, levante, alongue-se, vá dar uma volta, não se force camarada ;D )
+*/
+#showcase-container {
+  padding: 40px;
+}
+/*
+Estilização responsiva da seção dos clientes
+(Beba água, levante, alongue-se, vá dar uma volta, não se force camarada ;D )
+*/
+
+#clients-container {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.client {
+  width: 50%;
+}
+
+/*
+Estilização responsiva da seção das ações
+(Beba água, levante, alongue-se, vá dar uma volta, não se force camarada ;D )
+*/
+
+#features-container {
+  grid-template-columns: 1fr;
+}
+
+#features-container .feature:nth-child(2) {
+  margin: 15px 0;
+}
+
+/*
+Estilização responsiva da seção do produto
+(Beba água, levante, alongue-se, vá dar uma volta, não se force camarada ;D )
+*/
+#product-container {
+  flex-direction: column;
+}
+
+#product-items {
+  width: 90%;
+}
+
+.product-item {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/*
+Estilização responsiva da seção do testimonial
+(Beba água, levante, alongue-se, vá dar uma volta, não se force camarada ;D )
+*/
+
+.testimonial {
+  flex-direction: column;
+  text-align: center;
+}
+
+/*
+Estilização responsiva da seção dos resultados
+(Beba água, levante, alongue-se, vá dar uma volta, não se force camarada ;D )
+*/
+
+#results-container {
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  text-align: center;
+}
+
+/*
+Estilização responsiva da seção das estatísticas
+(Beba água, levante, alongue-se, vá dar uma volta, não se force camarada ;D )
+*/
+
+.statistics {
+  flex-direction: column;
+  text-align: center;
+}
+
+/*
+Estilização responsiva da seção da galeria
+(Beba água, levante, alongue-se, vá dar uma volta, não se force camarada ;D )
+*/
+
+#gallery-container {
+  grid-template-columns: 1fr;
+}
+
+.gallery-img {
+  width: 100%;
+}

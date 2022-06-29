@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<!-- 
+    Website Responsivo em React
+    (Beba água, levante, alongue-se, vá dar uma volta, não se force camarada ;D )
+-->
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./favicon.ico" type="x/icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="./css/mobile.css"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Website" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+    <link rel="manifest" href="./site.webmanifest" />
+    <title>WebSite</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- 
+      Barra de navegação e showcase
+      (Beba água, levante, alongue-se, vá dar uma volta, não se force camarada ;D )
+    -->
+    <nav id="navbar">
+      <div id="navbar-container">
+        <img class="logo" src="./apple-touch-icon.png" alt="Logo" />
+        <ul id="navbar-items">
+          <li id="navbar-item"><a href="#showcase">Início</a></li>
+          <li id="navbar-item"><a href="#features">Sobre</a></li>
+          <li id="navbar-item"><a href="#results">Resultados</a></li>
+          <li id="navbar-item"><a href="#statistics">Dados</a></li>
+          <li id="navbar-item"><a href="#gallery">Galeria</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header id="showcase">
+      <div id="showcase-container">
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto,
+          sint!
+        </p>
+        <a href="#features" class="btn">SAIBA MAIS</a>
+      </div>
+    </header>
+    <main id="main">
+      <section id="clients">
+        <div class="headline">NOSSOS CLIENTES</div>
+        <div id="clients-container">
+          <img class="client" src="./img/netflix.png" alt="Netflix" />
+          <img class="client" src="./img/google.png" alt="Google" />
+          <img class="client" src="./img/apple.png" alt="Apple" />
+          <img class="client" src="./img/microsoft.png" alt="Microsoft" />
+        </div>
+      </section>
+      <section id="features">
+        <div class="headline">O QUE FAZEMOS</div>
+        <div id="features-container">
+          <div class="feature">
+            <i class="fas fa-tachometer-alt fa-3x"></i>
+            <span class="feature-title">Lorem ipsum dolor sit amet.</span>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ad
+              sunt tempora natus illum ea?
+            </p>
+          </div>
+          <div class="feature">
+            <i class="fas fa-code fa-3x"></i>
+            <span class="feature-title">Lorem ipsum dolor sit amet.</span>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ad
+              sunt tempora natus illum ea?
+            </p>
+          </div>
+          <div class="feature">
+            <i class="fas fa-layer-group fa-3x"></i>
+            <span class="feature-title">Lorem ipsum dolor sit amet.</span>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ad
+              sunt tempora natus illum ea?
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="product">
+        <div class="headline">NOSSO PRODUTO</div>
+        <div id="product-container">
+          <img src="./img/iphone-x.png" alt="Produto" class="product-img" />
+          <div id="product-items">
+            <div class="product-item">
+              <i class="fas fa-map-marked fa-2x color-primary"></i>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda laboriosam autem officia cum odit consequuntur!
+              </p>
+            </div>
+            <div class="product-item">
+              <i class="fas fa-users fa-2x color-primary"></i>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda laboriosam autem officia cum odit consequuntur!
+              </p>
+            </div>
+            <div class="product-item">
+              <i class="fas fa-glass-cheers fa-2x color-primary"></i>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda laboriosam autem officia cum odit consequuntur!
+              </p>
+            </div>
+            <div class="product-item">
+              <i class="fas fa-book-open fa-2x color-primary"></i>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda laboriosam autem officia cum odit consequuntur!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="testimonials">
+        <div class="headline">O QUE ACHAM DE NÓS</div>
+        <div id="testimonials-container">
+          <div class="testimonial">
+            <img
+              src="./img/person-1.jpeg"
+              alt="Fulano"
+              class="testimonial-img"
+            />
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid
+              repellat minima dolorem consequatur, sunt nobis delectus enim ab
+              provident optio.
+            </p>
+          </div>
+          <div class="testimonial">
+            <img
+              src="./img/person-2.jpeg"
+              alt="Siclano"
+              class="testimonial-img"
+            />
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid
+              repellat minima dolorem consequatur, sunt nobis delectus enim ab
+              provident optio.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="gallery">
+        <div class="headline">GALERIA</div>
+        <div id="gallery-container">
+          <img src="./img/image-1.jpeg" alt="Imagem" class="gallery-img" />
+          <img src="./img/image-2.jpeg" alt="Imagem" class="gallery-img" />
+          <img src="./img/image-3.jpeg" alt="Imagem" class="gallery-img" />
+          <img src="./img/image-4.jpeg" alt="Imagem" class="gallery-img" />
+          <img src="./img/image-5.jpeg" alt="Imagem" class="gallery-img" />
+          <img src="./img/image-6.jpeg" alt="Imagem" class="gallery-img" />
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <p>ACSL 2022 - Todos os direitos reservados</p>
+      <p>Feito por F. S. Lawliet</p>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/f9e19193d6.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
