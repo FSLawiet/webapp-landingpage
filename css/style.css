@@ -249,94 +249,36 @@ Estilização da seção dos resultados
   width: 95%;
   height: 100%;
   margin: auto;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 30px;
-  justify-items: center;
-}
-
-#results-cards {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-items: center;
-  grid-gap: 25px;
-}
-
-.results-card {
-  width: 100%;
-  height: 100%;
-  background: #ccc;
-  box-shadow: 5px 5px 6px 6px #555;
-  border-radius: 15px;
-  padding: 8px 15px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-#results-form {
-  width: 100%;
-}
-
-#results-form form {
+#results-table {
+  background: white;
   box-shadow: 5px 5px 6px 6px #555;
-  padding: 2rem;
   border-radius: 15px;
-  background-color: white;
-}
-
-#results-form form fieldset {
-  border: #111 solid 1px;
-  border-radius: 15px;
-  padding: 20px;
-  margin-bottom: 15px;
-}
-
-#results-form form fieldset legend {
-  margin: 0 20px;
-  padding: 0 5px;
-  font-weight: bold;
-  font-style: italic;
-}
-
-#results-form form fieldset label {
-  display: block;
-  padding: 0 0.8rem 0.25rem 0;
-  text-transform: uppercase;
-  font-size: 14px;
-}
-
-#results-form form fieldset input,
-textarea,
-select {
-  display: block;
   width: 100%;
-  border: 2px solid #111;
-  padding: 0.5rem;
-  font-size: 18px;
-  border-radius: 5px;
 }
 
-#results-form form fieldset #qbox {
-  display: flex;
-  margin-bottom: 0.5rem;
+#results-table caption {
+  caption-side: bottom;
+  font-size: 10px;
+  text-align: right;
+  padding-top: 10px;
 }
 
-#results-form form fieldset .q {
-  font: inherit;
-  color: currentColor;
-  width: 1.15em;
-  height: 1.15em;
-  border: 0.15em solid currentColor;
-  border-radius: 50%;
-  margin-right: 5px;
-  accent-color: #111;
-}
-
-#results-form form #btnbox {
+#table-title {
   text-align: center;
+  font-size: 1.8em;
+  font-weight: bold;
+  padding: 15px 0;
+}
+
+.table-headers {
+  text-align: center;
+  font-weight: bold;
+  padding: 5px 0;
 }
 /*
 Estilização da seção dos dados
@@ -351,7 +293,12 @@ Estilização da seção dos dados
 }
 
 #statistics-container {
-  text-align: center;
+  width: 95%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #statistics-container svg {

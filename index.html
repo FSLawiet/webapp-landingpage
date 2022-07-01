@@ -155,6 +155,58 @@
           </div>
         </div>
       </section>
+      <section id="results">
+        <div class="headline">NOSSOS RESULTADOS</div>
+        <div id="results-container"></div>
+        <table id="results-table">
+          <caption>
+            Legenda da tabela.
+          </caption>
+          <thead>
+            <tr>
+              <th id="table-title" colspan="9">Notas e Tempos dos alunos</th>
+            </tr>
+            <tr>
+              <th class="table-headers">Nome</th>
+              <th class="table-headers">Bimestre</th>
+              <th class="table-headers" colspan="3">Notas</th>
+              <th class="table-headers">Média</th>
+              <th class="table-headers">Horário de Início</th>
+              <th class="table-headers">Horário de Término</th>
+              <th class="table-headers">Tempo de Prova (em minutos)</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+          <tfoot></tfoot>
+        </table>
+      </section>
+      <section id="statistics">
+        <div class="headline">NOSSOS DADOS</div>
+        <div id="statistics-container">
+          <table>
+            <caption>
+              Legenda da tabela. TODO
+            </caption>
+            <thead>
+              <tr>
+                <th>Média por tempo TODO</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td id="statistic-canvas">
+                  <!-- <div id="tooltip"></div> -->
+                </td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td>Legenda TODO</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </section>
       <section id="gallery">
         <div class="headline">GALERIA</div>
         <div id="gallery-container">
@@ -171,6 +223,7 @@
       <p>ACSL 2022 - Todos os direitos reservados</p>
       <p>Feito por F. S. Lawliet</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       crossorigin="anonymous"
