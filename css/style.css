@@ -268,6 +268,11 @@ Estilização da seção dos resultados
   padding-top: 10px;
 }
 
+#results-table tbody tr td {
+  text-align: center;
+  padding: 15px 0;
+}
+
 #table-title {
   text-align: center;
   font-size: 1.8em;
